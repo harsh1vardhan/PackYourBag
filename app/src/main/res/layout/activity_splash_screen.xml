@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/app_icon_two"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appIcon"
+        android:layout_centerInParent="true"
+        android:text="Pack With Me"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    
+
+
+</RelativeLayout>
